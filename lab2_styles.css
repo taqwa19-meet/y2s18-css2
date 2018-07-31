@@ -13,6 +13,18 @@ p {
     font-size: 24pt;
 }
 
+#important_paragraph:hover {
+	background-color: yellow;
+	font-size:40px;
+}
+
+.less_important_paragraph:hover {
+	color:blue;
+}
+
 a {
-    color:red;
+    background-color:white;
+}
+a:hover{
+	background-color:blue;
 }
